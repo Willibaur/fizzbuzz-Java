@@ -1,7 +1,7 @@
 package main.com.fizzbuzz;
 
 public class Fizzbuzz {
-    public String of(int number) {
+    public String fizzbuzzValue(int number) {
         return String.valueOf(number);
     }
 }

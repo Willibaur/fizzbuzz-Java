@@ -10,6 +10,7 @@ public class FizzbuzzTest {
 
     @Test
     public void returnsNumber() throws Exception {
-        assertEquals("1", fizzbuzz.of(1));
+        assertEquals("1", fizzbuzz.fizzbuzzValue(1));
+        assertEquals("2", fizzbuzz.fizzbuzzValue(2));
     }
 }
