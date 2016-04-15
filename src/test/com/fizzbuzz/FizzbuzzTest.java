@@ -12,6 +12,7 @@ public class FizzbuzzTest {
     public void whenNumberIsNotDivisibleBy3Or5ShouldReturnNumber() throws Exception {
         assertEquals("1", fizzbuzz.fizzbuzzValue(1));
         assertEquals("2", fizzbuzz.fizzbuzzValue(2));
+        assertEquals("Should returns 4", "4", fizzbuzz.fizzbuzzValue(4));
     }
 
     @Test
